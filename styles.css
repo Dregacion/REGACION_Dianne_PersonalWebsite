@@ -1,0 +1,45 @@
+
+div.navbar{
+	margin: -10px;
+    padding: 0px;
+	height: 90px;
+	width: 1370px;
+	background-color: gray;
+	
+}
+
+div.navbar img{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+div.navbar ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div.navbar li{	
+	color:white;
+	height: 25px;
+	margin-top: 50px;
+	margin-right: -1px;
+	padding-right: 40px;
+	padding-left: 30px;
+	float: right;
+	border-width: 2px;
+	border-right-style: solid;	
+}
+
+div.navbar a{	
+	font-family: HelloBasic;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+div.navbar a:hover{
+	background-color: none;
+	color: DarkGray;	
+}
