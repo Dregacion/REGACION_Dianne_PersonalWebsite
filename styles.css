@@ -27,7 +27,7 @@ div.navbar li{
 	color:white;
 	height: 25px;
 	margin-top: 50px;
-	margin-right: -.5px;
+	margin-right: -1px;
 	padding-right: 40px;
 	padding-left: 30px;
 	float: right;
@@ -83,17 +83,12 @@ div.hometitle p{
 }
 
 
-div.aboutme {
-	position: relative;
-	height: 1050px;
-	width: 1370px;
-	background-color: rgb(245, 245, 245);
-}
 
-div.about{
+div#aboutme {
 	margin-top: 0px;
 	margin-left: -10px;
-	height: 650px;
+	position: relative;
+	height: 600px;
 	width: 1370px;
 	background-color: rgb(245, 245, 245);
 }
@@ -106,13 +101,23 @@ div.aboutmetitle {
 	text-align: center;
 	color: rgb(95, 95, 95);
 	margin-top: 70px;
-	margin-left: 450px;
+	margin-left: 380px;
+}
+
+div.aboutmebody p{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 15px;
+	text-align: left;
+	color: rgb(50, 50, 50);
+	margin-top: 270px;
+	margin-left: 400px;
 }
 
 div.aboutmebody img {
 	position: absolute;
 	height: 500px;
 	width: 400px;
-	margin-top: 190px;
+	margin-top: 170px;
 	margin-left: 0px;
 }
