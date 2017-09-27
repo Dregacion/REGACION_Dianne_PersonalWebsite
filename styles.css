@@ -82,6 +82,8 @@ div.hometitle p{
 	padding: 50px;
 }
 
+
+
 div#aboutme {
 	margin-top: 0px;
 	margin-left: -10px;
@@ -151,7 +153,9 @@ div.aboutmequote p{
 	margin-left: 50px;
 }
 
-div.infos{
+
+
+div.personalinformation{
 	position: relative;
 	height: 450px;
 	width: 550px;
@@ -159,7 +163,7 @@ div.infos{
 	margin-left: -10px;
 }
 
-div.infotitle{
+div.personalinfotitle{
 	position: absolute;
 	font-family: Century Gothic;
 	font-size: 28px;
@@ -170,17 +174,19 @@ div.infotitle{
 	text-align: center;
 }
 
-div.infotitle img{
+div.personalinfotitle img{
 	position: absolute;
-	height: 40px;
-	width: 40px;
-	margin-top: 0px;
-	margin-left: -45px;
+	height: 28px;
+	width: 35px;
+	margin-top: 5px;
+	margin-left: -40px;
 }
 
 .pi_hr{
 	color: white;
 	width: 350px;
+	border-style: solid;
+	height: 1px;
 }
 
 div.personalinfo{
@@ -191,4 +197,42 @@ div.personalinfo{
 	color: white;
 	margin-top: 150px;
 	margin-left: 40px;
+}
+
+
+
+div.education{
+	position: absolute;
+	height: 450px;
+	width: 820px;
+	background-color: #c5dded;
+	margin-left: 540px;
+	margin-top: -450px;
+	opacity:0.5;
+}
+
+div.educationtitle {
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+	margin-top: 40px;
+	margin-left: 210px;
+	text-align: center;
+}
+
+div.educationtitle img{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	margin-top: 0px;
+	margin-left: -45px;
+}
+
+.ea_hr{
+	color: black;
+	width: 400px;
+	border-style: solid;
+	height: 1px;
 }
