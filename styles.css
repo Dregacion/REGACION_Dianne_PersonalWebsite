@@ -82,8 +82,6 @@ div.hometitle p{
 	padding: 50px;
 }
 
-
-
 div#aboutme {
 	margin-top: 0px;
 	margin-left: -10px;
@@ -120,4 +118,35 @@ div.aboutmebody img {
 	width: 400px;
 	margin-top: 170px;
 	margin-left: 0px;
+}
+
+div.aboutmequote{
+	position: absolute;
+	float: right;
+	margin-top: 0px;
+	margin-left: 1060px;
+	height: 650px;
+	width: 300px;
+}
+
+div.aboutmequote img{
+	position: absolute;
+	height: 600px;
+	width: 300px;
+	opacity: 0.7;
+}
+
+div.aboutmequote p{
+	color: black;
+	position: absolute;
+	font-family: Anisha Free;
+	font-size: 60px;
+	opacity: 0.8;
+	margin-top: 150px;
+	margin-left: 60px;
+}
+
+.psalms{
+	font-size: 35px;
+	margin-left: 50px;
 }
