@@ -182,3 +182,13 @@ div.infotitle img{
 	color: white;
 	width: 350px;
 }
+
+div.personalinfo{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 18px;
+	text-align: left;
+	color: white;
+	margin-top: 150px;
+	margin-left: 40px;
+}
