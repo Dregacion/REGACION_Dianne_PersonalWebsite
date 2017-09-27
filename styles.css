@@ -1,5 +1,6 @@
 
 div.navbar{
+	overflow: hidden;
 	z-index: 1;
 	margin-top:-10px;
 	margin-left: -10px;
@@ -122,6 +123,28 @@ div.aboutmebody img {
 	margin-left: 0px;
 }
 
+a.knowmore{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(50, 50, 50);
+	margin-left: 200px;
+	margin-top: 30px;
+	border-width: 1px;
+	border-top-style: solid;	
+	border-bottom-style: solid;	
+	border-color: rgb(50, 50, 50);
+	padding: 5px;
+}
+
+a.knowmore:hover{
+	background-color: none;
+	color: DarkGray;	
+}
+
 div.aboutmequote{
 	position: absolute;
 	float: right;
@@ -154,11 +177,18 @@ div.aboutmequote p{
 }
 
 
+div#allaboutme{
+	margin-top: 0px;
+	margin-left: -10px;
+	position: relative;
+	height: 900px;
+	width: 1370px;
+}
 
 div.personalinformation{
 	position: relative;
-	height: 450px;
-	width: 550px;
+	height: 500px;
+	width: 700px;
 	background-color: rgb(129, 170, 198);
 	margin-left: -10px;
 }
@@ -169,8 +199,8 @@ div.personalinfotitle{
 	font-size: 28px;
 	font-weight: bold;
 	color: white;
-	margin-top: 40px;
-	margin-left: 95px;
+	margin-top: 70px;
+	margin-left: 130px;
 	text-align: center;
 }
 
@@ -195,19 +225,19 @@ div.personalinfo{
 	font-size: 18px;
 	text-align: left;
 	color: white;
-	margin-top: 150px;
-	margin-left: 40px;
+	margin-top: 180px;
+	margin-left: 80px;
 }
 
 
 
 div.education{
 	position: absolute;
-	height: 450px;
-	width: 820px;
+	height: 500px;
+	width: 750px;
 	background-color: #c5dded;
-	margin-left: 540px;
-	margin-top: -450px;
+	margin-left: 620px;
+	margin-top: -500px;
 	opacity:0.5;
 }
 
@@ -217,7 +247,7 @@ div.educationtitle {
 	font-size: 28px;
 	font-weight: bold;
 	color: black;
-	margin-top: 40px;
+	margin-top: 70px;
 	margin-left: 210px;
 	text-align: center;
 }
@@ -235,4 +265,14 @@ div.educationtitle img{
 	width: 400px;
 	border-style: solid;
 	height: 1px;
+}
+
+div.educationalattainment{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 17px;
+	text-align: left;
+	color: black;
+	margin-top: 180px;
+	margin-left: 180px;
 }
