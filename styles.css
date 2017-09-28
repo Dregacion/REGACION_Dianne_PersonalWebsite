@@ -319,3 +319,15 @@ div.aspirationtitle img{
 	border-style: solid;
 	height: 1px;
 }
+
+div.aspirationbody{
+	position: absolute;
+	font-family: Lucida Calligraphy;
+	font-size: 17px;
+	text-align: left;
+	color: black;
+	margin-top: 210px;
+	margin-left: 50px;
+	letter-spacing: 1px;
+	text-align: center;
+}
