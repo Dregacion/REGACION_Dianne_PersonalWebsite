@@ -331,3 +331,42 @@ div.aspirationbody{
 	letter-spacing: 1px;
 	text-align: center;
 }
+
+
+
+
+div.skills{
+	position: relative;
+	height: 520px;
+	width: 450px;
+	margin-left: 920px;
+	margin-top: -520px;
+	background-color: #e45e74;
+	opacity:0.7;
+}
+
+div.skillstitle {
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	margin-top: 60px;
+	margin-left: 110px;
+	text-align: center;
+}
+
+div.skillstitle img{
+	position: absolute;
+	height: 40px;
+	width: 45px;
+	margin-top: -5px;
+	margin-left: -45px;
+}
+
+.s_hr{
+	color: white;
+	width: 220px;
+	border-style: solid;
+	height: 1px;
+}
