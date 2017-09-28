@@ -85,11 +85,12 @@ div.hometitle p{
 
 
 
+
 div#aboutme {
 	margin-top: 0px;
 	margin-left: -10px;
 	position: relative;
-	height: 650px;
+	height: 700px;
 	width: 1370px;
 	background-color: rgb(245, 245, 245);
 }
@@ -132,7 +133,7 @@ a.knowmore{
 	text-decoration: none;
 	color: rgb(50, 50, 50);
 	margin-left: 200px;
-	margin-top: 30px;
+	margin-top: 40px;
 	border-width: 1px;
 	border-top-style: solid;	
 	border-bottom-style: solid;	
@@ -156,7 +157,7 @@ div.aboutmequote{
 
 div.aboutmequote img{
 	position: absolute;
-	height: 650px;
+	height: 700px;
 	width: 310px;
 	opacity: 0.7;
 }
@@ -177,6 +178,8 @@ div.aboutmequote p{
 }
 
 
+
+
 div#allaboutme{
 	margin-top: 0px;
 	margin-left: -10px;
@@ -188,7 +191,7 @@ div#allaboutme{
 div.personalinformation{
 	position: relative;
 	height: 500px;
-	width: 700px;
+	width: 690px;
 	background-color: rgb(129, 170, 198);
 	margin-left: -10px;
 }
@@ -200,7 +203,7 @@ div.personalinfotitle{
 	font-weight: bold;
 	color: white;
 	margin-top: 70px;
-	margin-left: 130px;
+	margin-left: 160px;
 	text-align: center;
 }
 
@@ -226,17 +229,18 @@ div.personalinfo{
 	text-align: left;
 	color: white;
 	margin-top: 180px;
-	margin-left: 80px;
+	margin-left: 110px;
 }
+
 
 
 
 div.education{
 	position: absolute;
 	height: 500px;
-	width: 750px;
+	width: 690px;
 	background-color: #c5dded;
-	margin-left: 620px;
+	margin-left: 680px;
 	margin-top: -500px;
 	opacity:0.5;
 }
@@ -248,7 +252,7 @@ div.educationtitle {
 	font-weight: bold;
 	color: black;
 	margin-top: 70px;
-	margin-left: 210px;
+	margin-left: 140px;
 	text-align: center;
 }
 
@@ -274,5 +278,44 @@ div.educationalattainment{
 	text-align: left;
 	color: black;
 	margin-top: 180px;
-	margin-left: 180px;
+	margin-left: 110px;
+}
+
+
+
+
+div.aspiration{
+	position: relative;
+	height: 520px;
+	width: 920px;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: pink;
+	opacity:0.5;
+}
+
+div.aspirationtitle {
+	position: absolute;
+	font-family: Lucida Calligraphy;
+	font-size: 35px;
+	font-weight: bold;
+	color: black;
+	margin-top: 40px;
+	margin-left: 280px;
+	text-align: center;
+}
+
+div.aspirationtitle img{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	margin-top: 0px;
+	margin-left: -45px;
+}
+
+.a_hr{
+	color: black;
+	width: 350px;
+	border-style: solid;
+	height: 1px;
 }
