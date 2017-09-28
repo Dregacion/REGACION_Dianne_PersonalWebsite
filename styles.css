@@ -309,8 +309,8 @@ div.aspirationtitle img{
 	position: absolute;
 	height: 50px;
 	width: 50px;
-	margin-top: 0px;
-	margin-left: -45px;
+	margin-top: -5px;
+	margin-left: -50px;
 }
 
 .a_hr{
@@ -361,7 +361,7 @@ div.skillstitle img{
 	height: 40px;
 	width: 45px;
 	margin-top: -5px;
-	margin-left: -45px;
+	margin-left: -50px;
 }
 
 .s_hr{
@@ -369,4 +369,14 @@ div.skillstitle img{
 	width: 220px;
 	border-style: solid;
 	height: 1px;
+}
+
+div.skillsbody{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 17px;
+	text-align: left;
+	color: white;
+	margin-top: 180px;
+	margin-left: 80px;
 }
