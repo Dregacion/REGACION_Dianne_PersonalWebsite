@@ -350,7 +350,7 @@ div.skillsbody{
 
 div.aspiration{
 	position: relative;
-	height: 510px;
+	height: 520px;
 	width: 1370px;
 	margin-left: -10px;
 	margin-top: 0px;
@@ -477,4 +477,28 @@ div.pic8 {
 	margin-top: 423px;
 	margin-left: 819px;
 	position: absolute;
+}
+
+
+
+
+div#contacts{
+
+	margin-top: 0px;
+	margin-left: -10px;
+	position: relative;
+	height: 700px;
+	width: 1370px;
+	background-color: rgb(245, 245, 245);
+}
+
+div.contactstitle {
+	position: absolute;
+	font-weight: bold;
+	font-family: Century Gothic;
+	font-size: 50px;
+	text-align: center;
+	color: rgb(95, 95, 95);
+	margin-top: 70px;
+	margin-left: 380px;
 }
