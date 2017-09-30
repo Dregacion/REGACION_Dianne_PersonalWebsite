@@ -184,7 +184,7 @@ div#moreaboutme{
 	margin-top: 0px;
 	margin-left: -10px;
 	position: relative;
-	height: 1180px;
+	height: 700px;
 	width: 1370px;
 	background-color: rgb(95, 95, 95);
 	opacity: 0.9;
@@ -194,11 +194,11 @@ div.moreaboutmetitle {
 	position: absolute;
 	font-weight: bold;
 	font-family: Century Gothic;
-	font-size: 50px;
+	font-size: 45px;
 	text-align: center;
 	color: white;
 	margin-top: 80px;
-	margin-left: 470px; 
+	margin-left: 485px; 
 	opacity: 0.9;
 }
 
@@ -206,18 +206,18 @@ div.personalinformation{
 	position: relative;
 	height: 500px;
 	width: 690px;
-	margin-left: 20px;
+	margin-left: -50px;
 	opacity:0.9;
 }
 
 div.personalinfotitle{
 	position: absolute;
 	font-family: Century Gothic;
-	font-size: 28px;
+	font-size: 26px;
 	font-weight: bold;
 	color: white;
 	margin-top: 230px;
-	margin-left: 160px;
+	margin-left: 120px;
 	text-align: center;
 }
 
@@ -240,7 +240,7 @@ div.personalinfotitle img{
 div.personalinfo{
 	position: absolute;
 	font-family: Century Gothic;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: left;
 	color: white;
 	margin-top: 330px;
@@ -254,7 +254,7 @@ div.education{
 	position: absolute;
 	height: 500px;
 	width: 690px;
-	margin-left: 650px;
+	margin-left: 425px;
 	margin-top: -520px;
 	opacity:0.9;
 }
@@ -262,11 +262,11 @@ div.education{
 div.educationtitle {
 	position: absolute;
 	font-family: Century Gothic;
-	font-size: 28px;
+	font-size: 26px;
 	font-weight: bold;
 	color: white;
 	margin-top: 250px;
-	margin-left: 140px;
+	margin-left: 120px;
 	text-align: center;
 }
 
@@ -289,7 +289,7 @@ div.educationtitle img{
 div.educationalattainment{
 	position: absolute;
 	font-family: Century Gothic;
-	font-size: 17px;
+	font-size: 16px;
 	text-align: left;
 	color: white;
 	margin-top: 355px;
@@ -299,12 +299,62 @@ div.educationalattainment{
 
 
 
-div.aspiration{
+div.skills{
 	position: relative;
 	height: 520px;
-	width: 920px;
-	margin-left: 10px;
+	width: 450px;
+	margin-left: 960px;
+	margin-top: -305px;
+	opacity:0.9;
+}
+
+div.skillstitle {
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;
+	margin-top: 35px;
+	margin-left: 110px;
+	text-align: center;
+}
+
+div.skillstitle img{
+	position: absolute;
+	height: 35px;
+	width: 40px;
+	margin-top: -5px;
+	margin-left: -40px;
+}
+
+.s_hr{
+	color: black;
+	width: 200px;
+	border-style: solid;
+	height: 1px;
+	opacity: 0.5;
+}
+
+div.skillsbody{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	margin-top: 140px;
+	margin-left: 80px;
+}
+
+
+
+
+div.aspiration{
+	position: relative;
+	height: 510px;
+	width: 1370px;
+	margin-left: -10px;
 	margin-top: 0px;
+	background-color: rgb(245, 245, 245);
 	opacity:0.9;
 }
 
@@ -313,9 +363,9 @@ div.aspirationtitle {
 	font-family: Lucida Calligraphy;
 	font-size: 35px;
 	font-weight: bold;
-	color: white;
-	margin-top: 130px;
-	margin-left: 280px;
+	color:  rgb(95, 95, 95);
+	margin-top: 50px;
+	margin-left: 500px;
 	text-align: center;
 }
 
@@ -325,6 +375,7 @@ div.aspirationtitle img{
 	width: 50px;
 	margin-top: -5px;
 	margin-left: -50px;
+		opacity:0.5;
 }
 
 .a_hr{
@@ -340,60 +391,11 @@ div.aspirationbody{
 	font-family: Lucida Calligraphy;
 	font-size: 17px;
 	text-align: left;
-	color: white;
-	margin-top: 260px;
-	margin-left: 50px;
+	color:  rgb(95, 95, 95);
+	margin-top: 210px;
+	margin-left: 270px;
 	letter-spacing: 1px;
 	text-align: center;
-}
-
-
-
-
-div.skills{
-	position: relative;
-	height: 520px;
-	width: 450px;
-	margin-left: 890px;
-	margin-top: -405px;
-	opacity:0.9;
-}
-
-div.skillstitle {
-	position: absolute;
-	font-family: Century Gothic;
-	font-size: 30px;
-	font-weight: bold;
-	color: white;
-	margin-top: 35px;
-	margin-left: 110px;
-	text-align: center;
-}
-
-div.skillstitle img{
-	position: absolute;
-	height: 40px;
-	width: 45px;
-	margin-top: -5px;
-	margin-left: -50px;
-}
-
-.s_hr{
-	color: black;
-	width: 220px;
-	border-style: solid;
-	height: 1px;
-	opacity: 0.5;
-}
-
-div.skillsbody{
-	position: absolute;
-	font-family: Century Gothic;
-	font-size: 17px;
-	text-align: left;
-	color: white;
-	margin-top: 140px;
-	margin-left: 80px;
 }
 
 
@@ -403,9 +405,9 @@ div#gallery{
 	margin-top: 0px;
 	margin-left: -10px;
 	position: relative;
-	height: 700px;
+	height: 1050px;
 	width: 1370px;
-	background-color: rgb(245, 245, 245);
+	background-color: rgb(112, 112, 112);
 }
 
 div.gallerytitle {
@@ -414,7 +416,65 @@ div.gallerytitle {
 	font-family: Century Gothic;
 	font-size: 50px;
 	text-align: center;
-	color: rgb(95, 95, 95);
+	color: white;
 	margin-top: 70px;
 	margin-left: 380px;
+}
+
+div#gallery img {
+	margin-top: 85px;
+	margin-left: 80px;
+	border: 3px solid white;
+}
+
+div#gallery img:hover {
+	opacity: 0.6;
+}
+
+div.pic1 {
+	margin-top: 366px;
+	margin-left: 195px;
+	position: absolute;
+}
+
+div.pic2 {
+	margin-top: 296px;
+	margin-left: 390px;
+	position: absolute;
+}
+
+div.pic3 {
+	margin-top: 619px;
+	margin-left: 307px;
+	position: absolute;
+}
+
+div.pic4 {
+	margin-top: 619px;
+	margin-left: 450px;
+	position: absolute;
+}
+
+div.pic5 {
+	margin-top: 423px;
+	margin-left: 604px;
+	position: absolute;
+}
+
+div.pic6 {
+	margin-top: 220px;
+	margin-left: 604px;
+	position: absolute;
+}
+
+div.pic7 {
+	margin-top: 240px;
+	margin-left: 758px;
+	position: absolute;
+}
+
+div.pic8 {
+	margin-top: 423px;
+	margin-left: 819px;
+	position: absolute;
 }
