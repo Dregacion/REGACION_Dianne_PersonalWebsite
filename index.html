@@ -3,6 +3,41 @@
 <html>
 	 <head>
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="jquery-1.10.2.min.js"></script>
+		
+        <script>
+            $(document).ready(function(){
+			
+               $("#homelink").click(function(){
+                    $path=$("#home").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+			   
+               $("#aboutmelink").click(function(){
+                    $path=$("#aboutme").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+			   
+               $("#gallerylink").click(function(){
+                    $path=$("#gallery").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+			   
+               $("#contactlink").click(function(){
+                    $path=$("#contact").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+			   
+			    $("#moreaboutmelink").click(function(){
+                    $path=$("#moreaboutme").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+			   
+            });
+        </script>
+	
 	</head> 
 
 	<title>Regacion Personal Website</title>
