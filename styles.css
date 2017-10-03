@@ -1,0 +1,625 @@
+
+@font-face{
+	font-family: anisha free.otf;
+	src:url("styles/fonts/anisha free.otf");
+}
+
+@font-face{
+	font-family: Century Gothic.ttf;
+	src:url("styles/fonts/Century Gothic.ttf");
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#home, #aboutme, #gallery, #contact{
+	height: 100vh;
+	width: 100%;
+}
+
+div.navbar{
+	overflow: hidden;
+	z-index: 1;
+	margin-top:-10px;
+	margin-left: -10px;
+    padding: 0px;
+	height: 90px;
+	width: 1370px;
+	background-color: rgb(95, 95, 95);
+	position: fixed;  
+}
+
+div.navbar img{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+div.navbar ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div.navbar li{	
+	color:white;
+	height: 25px;
+	margin-top: 50px;
+	margin-right: -1px;
+	padding-right: 40px;
+	padding-left: 30px;
+	float: right;
+	border-width: 2px;
+	border-right-style: solid;	
+}
+
+div.navbar a{	
+	font-family: Century Gothic;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+div.navbar a:hover{
+	background-color: none;
+	color: DarkGray;	
+}
+
+div.navbar a:active{
+	background-color: none;
+	color: black;	
+}
+
+
+
+div.firstpage {
+	z-index: -1;
+	position: relative;
+}
+
+div.firstpage img{
+	margin-top: 75px;
+	margin-left: -10px;
+	width: 1370px;
+	height: 565px;
+	opacity: 0.9;
+}
+
+#home{
+	height: 640px;
+	width: 1370px;
+}
+
+div.hometitle p{
+	margin: auto;
+	position: absolute;
+    color: white;
+	bottom: 180px;
+	left: 300px;
+	font-family: Century Gothic;
+	font-size: 80px;
+	font-weight: bold;
+	border: 10px;
+	border-color: white;
+	border-style: double;
+	padding: 50px;
+}
+
+
+
+
+div#aboutme {
+	margin-top: 0px;
+	margin-left: -10px;
+	position: relative;
+	height: 730px;
+	width: 1370px;
+	background-color: rgb(245, 245, 245);
+}
+
+div.aboutmetitle {
+	position: absolute;
+	font-weight: bold;
+	font-family: Century Gothic;
+	font-size: 50px;
+	text-align: center;
+	letter-spacing: 10px;
+	color: rgb(95, 95, 95);
+	margin-top: 70px;
+	margin-left: 380px;
+}
+
+.am_hr{
+	color: rgb(112, 112, 112);
+	width: 580px;
+	border-style: solid;
+	height: 1px;
+	opacity: 0.5;
+	
+}
+
+div.aboutmebody p{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 15px;
+	text-align: left;
+	letter-spacing: 0.5px;
+	color: rgb(95, 95, 95);
+	margin-top: 290px;
+	margin-left: 395px;
+}
+
+div.aboutmebody img {
+	position: absolute;
+	height: 500px;
+	width: 400px;
+	margin-top: 190px;
+	margin-left: 0px;
+}
+
+div.knowmore a{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(112, 112, 122);
+	margin-left: 600px;
+	margin-top: 580px;
+	border: 1px solid rgb(112, 112, 122);	
+	padding: 7px;
+}
+
+div.knowmore a:hover{
+	border: 1px solid rgb(180, 180, 180);	
+	background-color: rgb(180, 180, 180);
+	color: rgb(50, 50, 50);	
+}
+
+.am_hr1{
+	color: rgb(112, 112, 112);
+	width: 220px;
+	border-style: solid;
+	height: 1px;
+	opacity: 0.5;
+	position: absolute;
+	margin-left: 380px;
+	margin-top: 600px;
+}
+
+.am_hr2{
+	color: rgb(112, 112, 112);
+	width: 235px;
+	border-style: solid;
+	height: 1px;
+	opacity: 0.5;
+	position: absolute;
+	margin-left: 727px;
+	margin-top: 600px;
+}
+
+div.aboutmequote{
+	position: absolute;
+	float: right;
+	margin-top: 0px;
+	margin-left: 1055px;
+	height: 650px;
+	width: 300px;
+}
+
+div.aboutmequote img{
+	position: absolute;
+	height: 730px;
+	width: 315px;
+	opacity: 0.7;
+}
+
+div.aboutmequote p{
+	color: black;
+	position: absolute;
+	font-family: anisha free;
+	font-size: 60px;
+	letter-spacing: 2px;
+	opacity: 0.8;
+	margin-top: 230px;
+	margin-left: 45px;
+}
+
+.psalms{
+	font-size: 35px;
+	margin-left: 50px;
+}
+
+
+
+
+div#moreaboutme{
+	margin-top: 0px;
+	margin-left: -10px;
+	position: relative;
+	height: 700px;
+	width: 1370px;
+	background-color: rgb(112, 112, 112);
+}
+
+div.moreaboutmetitle {
+	position: absolute;
+	font-weight: bold;
+	font-family: Century Gothic;
+	font-size: 50px;
+	text-align: center;
+	letter-spacing: 5px;
+	color: white;
+	margin-top: 80px;
+	margin-left: 440px; 
+	opacity: 0.9;
+}
+
+div.personalinformation{
+	position: relative;
+	height: 500px;
+	width: 690px;
+	margin-left: -20px;
+	opacity:0.9;
+}
+
+div.personalinfotitle{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;
+	margin-top: 230px;
+	margin-left: 110px;
+	text-align: center;
+}
+
+div.personalinfotitle img{
+	position: absolute;
+	height: 28px;
+	width: 35px;
+	margin-top: 5px;
+	margin-left: -40px;
+}
+
+.pi_hr{
+	color: white;
+	width: 320px;
+	border-style: solid;
+	height: 1px;
+	opacity:0.5;
+}
+
+div.personalinfo{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	margin-top: 330px;
+	margin-left: 110px;
+}
+
+
+
+
+div.education{
+	position: absolute;
+	height: 500px;
+	width: 690px;
+	margin-left: 400px;
+	margin-top: -520px;
+	opacity:0.9;
+}
+
+div.educationtitle {
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;
+	margin-top: 250px;
+	margin-left: 110px;
+	text-align: center;
+}
+
+div.educationtitle img{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	margin-top: 0px;
+	margin-left: -45px;
+}
+
+.ea_hr{
+	color: white;
+	width: 400px;
+	border-style: solid;
+	height: 1px;
+	opacity:0.5;
+}
+
+div.educationalattainment{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	margin-top: 355px;
+	margin-left: 110px;
+}
+
+
+
+
+div.skills{
+	position: relative;
+	height: 520px;
+	width: 450px;
+	margin-left: 930px;
+	margin-top: -305px;
+	opacity:0.9;
+}
+
+div.skillstitle {
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;
+	margin-top: 35px;
+	margin-left: 110px;
+	text-align: center;
+}
+
+div.skillstitle img{
+	position: absolute;
+	height: 35px;
+	width: 40px;
+	margin-top: -5px;
+	margin-left: -40px;
+}
+
+.s_hr{
+	color: white;
+	width: 200px;
+	border-style: solid;
+	height: 1px;
+	opacity: 0.5;
+}
+
+div.skillsbody{
+	position: absolute;
+	font-family: Century Gothic;
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	margin-top: 140px;
+	margin-left: 80px;
+}
+
+
+
+
+div.aspiration{
+	position: relative;
+	height: 550px;
+	width: 1370px;
+	margin-left: -10px;
+	margin-top: 0px;
+	background-color: rgb(245, 245, 245);
+
+}
+
+div.aspirationtitle {
+	position: absolute;
+	font-family: Lucida Calligraphy;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: rgb(95, 95, 95);
+	margin-top: 50px;
+	margin-left: 230px;
+	text-align: center;
+}
+
+div.aspirationtitle img{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	margin-top: -5px;
+	margin-left: -50px;
+	opacity:0.5;
+}
+
+.a_hr{
+	color: rgb(112, 112, 112);
+	width: 900px;
+	border-style: solid;
+	height: 1px;
+	opacity: 0.5;
+}
+
+div.aspirationbody{
+	position: absolute;
+	font-family: Lucida Calligraphy;
+	font-size: 17px;
+	text-align: left;
+	color:  rgb(95, 95, 95);
+	margin-top: 210px;
+	margin-left: 270px;
+	letter-spacing: 1px;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+
+
+div#gallery{
+	margin-top: 0px;
+	margin-left: -10px;
+	position: relative;
+	height: 1240px;
+	width: 1370px;
+	background-color: rgb(112, 112, 112);
+}
+
+div.gallerytitle {
+	position: absolute;
+	font-weight: bold;
+	font-family: Century Gothic;
+	font-size: 60px;
+	letter-spacing: 18px;
+	text-align: center;
+	color: white;
+	margin-top: 75px;
+	margin-left: 200px;
+}
+
+.g_hr{
+	color: white;
+	width: 950px;
+	border-style: solid;
+	height: 1px;
+	opacity:0.5;
+}
+
+div.pictures img{
+	margin-top: -120px;
+	border: 2px solid rgb(200, 200, 200);
+}
+
+div.pictures img:hover {
+	opacity: 0.5;
+	border: 2px solid white;
+}
+
+div.pic1 {
+	margin-top: 550px;
+	margin-left: 235px;
+	position: absolute;
+}
+
+div.pic2 {
+	margin-top: 480px;
+	margin-left: 455px;
+	position: absolute;
+}
+
+div.pic3 {
+	margin-top: 480px;
+	margin-left: 705px;
+	position: absolute;
+}
+
+div.pic4 {
+	margin-top: 550px;
+	margin-left: 950px;
+	position: absolute;
+}
+
+div.pic5 {
+	margin-top: 830px;
+	margin-left: 235px;
+	position: absolute;
+}
+
+div.pic6 {
+	margin-top: 830px;
+	margin-left: 455px;
+	position: absolute;
+}
+
+div.pic7 {
+	margin-top: 830px;
+	margin-left: 705px;
+	position: absolute;
+}
+
+div.pic8 {
+	margin-top: 830px;
+	margin-left: 950px;
+	position: absolute;
+}
+
+
+
+#contact{
+	margin-top: 0px;
+	margin-left: -10px;
+	position: relative;
+	height: 600px;
+	width: 1370px;
+	background-color: rgb(245, 245, 245);
+}
+
+div.contactstitle {
+	position: absolute;
+	font-weight: bold;
+	font-family: Century Gothic;
+	font-size: 60px;
+	text-align: center;
+	letter-spacing: 15px;
+	color: rgb(95, 95, 95);
+	margin-top: 30px;
+	margin-left: 200px;
+}
+
+.c_hr{
+	color: rgb(112, 112, 112);
+	width: 950px;
+	border-style: solid;
+	height: 1px;
+	opacity:0.5;
+}
+
+div.phoneimage img{
+	margin-top: 300px;
+	margin-left: 270px;
+	position: absolute;
+}
+
+div.phonedetails {
+	margin-top: 450px;
+	margin-left: 280px;
+	position: absolute;
+}
+
+div.emailimage img{
+	margin-top: 300px;
+	margin-left: 590px;
+	position: absolute;
+}
+
+div.emaildetails {
+	margin-top: 450px;
+	margin-left: 570px;
+	position: absolute;
+	text-align: center;
+}
+
+.contact{
+	margin-top: -5px;
+	position: absolute;
+	font-weight: bold;
+	font-family: Century Gothic;
+	font-size: 25px;
+	text-align: center;
+	color: rgb(95, 95, 95);
+}
+
+.details{
+	margin-top: 10px;
+	position: absolute;
+	font-weight: bold;
+	font-family: Century Gothic;
+	font-size: 18px;
+	text-align: center;
+	color: rgb(95, 95, 95);
+}
