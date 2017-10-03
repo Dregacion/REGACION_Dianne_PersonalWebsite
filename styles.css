@@ -604,6 +604,18 @@ div.emaildetails {
 	text-align: center;
 }
 
+div.fbimage img{
+	margin-top: 300px;
+	margin-left: 920px;
+	position: absolute;
+}
+
+div.fbdetails {
+	margin-top: 450px;
+	margin-left: 860px;
+	position: absolute;
+}
+
 .contact{
 	margin-top: -5px;
 	position: absolute;
