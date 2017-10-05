@@ -490,10 +490,11 @@ div.gallerytitle {
 	opacity:0.5;
 }
 
+
 div.pictures img{
 	margin-top: -120px;
-	border: 2px solid rgb(200, 200, 200);
 }
+
 
 div.pictures img:hover {
 	opacity: 0.5;
@@ -547,6 +548,59 @@ div.pic8 {
 	margin-left: 950px;
 	position: absolute;
 }
+
+.w3-modal{z-index:3;
+		display:none;
+		padding-top:100px;
+		position:fixed;
+		left:0;
+		top:0;
+		width:450px;
+		height:100%;
+		overflow:auto;
+		background-color:transparent!important;
+		background-color:rgba(0,0,0,0.4);
+		padding-top:30px
+		}
+			
+.w3-modal-content{margin:auto;
+		background-color:rgb(112, 112, 112);
+		position:absolute;
+		padding:0;
+		outline:0;
+		width:600px;
+		margin:0 10px;
+		width:auto
+	}
+
+.w3-button{border:none;
+		display:inline-block;
+		outline:0;
+		padding:8px 16px;
+		vertical-align:middle;
+		overflow:hidden;
+		text-decoration:none;
+		color:inherit;
+		background-color:rgb(230,230,230);
+		text-align:center;
+		cursor:pointer;
+		white-space:nowrap;
+		-webkit-touch-callout:none;
+		-webkit-user-select:none;
+		-moz-user-select:none;
+	}
+
+.w3-button:hover{color:white;
+		background-color:red;
+	}
+
+.w3-display-topright{position:absolute;
+		right:0;
+		top:0
+	}
+	
+.w3-xlarge{font-size:24px}
+
 
 
 
